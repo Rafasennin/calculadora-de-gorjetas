@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculadora De Gorgeta</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1 class="main__title">Divisor</h1>
+
+    <section class="visor__box">
+
+         <div class="visor">
+            <h2 class="visor__title"> Valor total da conta</h2>
+            <input type="number" class="input__number" placeholder="R$">
+        </div>
+
+        <div class="tip__box">  
+            <h2 class="tip__title">
+                Porcentagem da gorgeta %
+            </h2>
+        </div>
+
+        <div class="tecla__box">
+           <button class="tecla__tecla tecla__1" id="tecla__tecla tecla__1">5%</button>
+           <button class="tecla__tecla tecla__2" id="tecla__tecla tecla__2">10%</button>
+           <button class="tecla__tecla tecla__3" id="tecla__tecla tecla__3">15%</button>
+           <button class="tecla__tecla tecla__4" id="tecla__tecla tecla__4">25%</button>
+           <button class="tecla__tecla tecla__5" id="tecla__tecla tecla__5">50%</button>
+           <input tupe="number"class="tecla__number tecla__6" id="tecla__number" placeholder="Custom"></button>
+        </div>
+
+        <div class="number__people">  
+            <h2 class="people__title">
+                Número de pessoas
+            </h2>
+
+            <input type="number"class="people__number" id="people__number" placeholder="0"></button>
+        </div>
+     
+    <div class="left__side">
+
+            <div class="tip__amount">  
+                <h2 class="amount__title">
+                    Valor da Gorjeta
+                </h2>
+            </div>
+                <h3 class="amount__title2">
+                    / pessoa
+                </h3>
+
+                <p class="amount">R$ 0.00</p>
+           
+
+            <div class="tip__total">  
+                <h2 class="total__title">
+                    Valor da Gorjeta
+                </h2>
+                <h2 class="total__title2">
+                    / pessoa
+                </h2>
+
+                <p class="total">R$ 0.00</p>
+            </div>   
+            
+            <button type="reset" class="reset">Reset</button>
+
+    </div>
+    </section>
+    
+    <script src="main.js"></script>
+</body>
+</html>
