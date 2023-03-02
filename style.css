@@ -31,7 +31,7 @@ body{
 
 .visor__box{
     width: 700px;
-    height: 400px;
+    height: 350px;
     margin: 2em auto;
     padding: 1em;
     border-radius: 20px;
@@ -53,17 +53,32 @@ body{
     grid-column: 1;
     grid-row: 2;
     font-size: 16px;
+    position: relative;
+    top: 30px;
+    right: 115px;
+    font-size: 14px;
+    color: var(--dark-grayish-cyan);
+    font-weight: bold;
 }
 
 .input__number{
     grid-column: 1;
     grid-row: 2;
+    border: none;
+    background-color: var(--very-light-grayish-cyan);
 }
 
 .tip__box{
     grid-column: 1;
     grid-row: 3;
     font-size: 16px;
+    position: relative;
+    top: 25px;
+    right: 93px;
+    font-size: 14px;
+    color: var(--dark-grayish-cyan);
+    font-weight: bold;
+    
 
 }
 
@@ -74,15 +89,52 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 1fr;
     row-gap: 1em;
-    column-gap: 1em;
-   
+    column-gap: 1em;  
+}
+
+.tecla__tecla, .tecla__number{
+    font-weight: bold;
+    background-color: var(--very-dark-cyan);
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    width: 5em;
+}
+
+.tecla__number{
+    background-color: var(--very-light-grayish-cyan);
+}
+
+.people__title{
+    font-size: 14px;
+    color: var(--dark-grayish-cyan);
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 0.5em;
+
 }
 
 .number__people{
     grid-column: 1;
     grid-row: 6;
     font-size: 16px;
+    
+}
 
+.people__number{
+    text-align: right;
+    width: 25em;
+    padding: 0.5em;
+    background-color: var(--very-light-grayish-cyan);
+    border: none;
+}
+
+.people__number::placeholder{
+    background-image: url(images/user-solid.svg);
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    font-size: 11px;
 }
 
 /* Lado direito*/
@@ -93,8 +145,9 @@ body{
     margin:1em;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat (4, 1fr);
-    grid-column: 2;
+    grid-template-rows: 1fr 1fr 1fr ;
+    height: 330px;
+
 
 }
 
@@ -152,14 +205,12 @@ strong{
     grid-column: span 2;
     grid-row: 3 span 2;
     width: 20em;
-    padding: 1em;
     text-transform: uppercase;
     font-weight: bold;
-    margin: 10em auto 2em auto;
+    margin: 3em auto 0 auto;
     background-color: var(--strong-cyan);
     border: none;
     border-radius: 5px;
-    
-   
+    height: 3em;  
 }
 
