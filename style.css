@@ -87,7 +87,7 @@ body{
     text-align: left;
     margin-left: 1.4em;
     position: relative;
-    top: 1.5em;
+    bottom: 0.1em;
     
 
 }
@@ -195,14 +195,15 @@ body{
 .amount__title{
     grid-row: 1;
     grid-column: 1;
-    word-wrap: break-word;
     padding: 3em  1em 0 1em;
+    width: 7em;
 }
 
 .total__title{
     position: relative;
     right: 1em;
     bottom: 1em;
+    width: 7em;
 }
 
 
@@ -228,6 +229,7 @@ strong{
     padding: 1em  1em 0 1em;
     font-size: 30px;
     color: var(--strong-cyan);
+    width: 4.5em;
 
 }
 
@@ -246,6 +248,7 @@ strong{
     padding: 0 1em;
     font-size: 30px;
     color: var(--strong-cyan);
+    width: 4.5em;
 
 }
 

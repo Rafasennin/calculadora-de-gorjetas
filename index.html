@@ -25,7 +25,7 @@
                         <h2 class="visor__title"> Valor total da conta</h2>
                     </div>
 
-                    <input type="number" class="input__number" placeholder="R$">
+                    <input type="number" class="input__number" id="input__number" placeholder="R$">
 
                     <div class="tip__box">  
                         <h2 class="tip__title">
@@ -39,7 +39,7 @@
                         <button class="tecla__tecla tecla__3" id="tecla__tecla tecla__3">15%</button>
                         <button class="tecla__tecla tecla__4" id="tecla__tecla tecla__4">25%</button>
                         <button class="tecla__tecla tecla__5" id="tecla__tecla tecla__5">50%</button>
-                        <input tupe="number"class="tecla__number tecla__6" id="tecla__number" placeholder="Custom"></button>
+                        <input type="number" class="tecla__number tecla__6" id="tecla__number" placeholder="Custom">
                     </div>
 
                     <div class="number__people">  
@@ -60,7 +60,7 @@
                              <strong class="strong__1">/pessoa</strong>
                     </div>
 
-                        <p class="amount">R$ 0.00</p>
+                        <p class="amount" id="amount">R$ 0.00</p>
                 
 
                     <div class="tip__total">  
@@ -70,9 +70,9 @@
                              <strong class="strong__2">/pessoa</strong>
                     </div> 
                     
-                        <p class="total">R$ 0.00</p>
+                        <p class="total" id="total">R$ 0.00</p>
                     
-                    <button type="reset" class="reset">Reset</button>
+                    <button type="reset" class="reset" onclick="resetTip()">Reset</button>
             </div>
     </section>
     
