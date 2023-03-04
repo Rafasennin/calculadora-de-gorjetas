@@ -156,6 +156,11 @@ body{
     border-radius: 4px;  
 }
 
+.number__zero{
+    color: red;
+    font-weight: bold;
+}
+
 .people__number:hover{
     border-color: var(--strong-cyan);
     cursor: pointer;
@@ -226,10 +231,10 @@ strong{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 1em  1em 0 1em;
+    padding: 0 1em;
     font-size: 30px;
     color: var(--strong-cyan);
-    width: 4.5em;
+    width: 3.5em;
 
 }
 
@@ -248,7 +253,7 @@ strong{
     padding: 0 1em;
     font-size: 30px;
     color: var(--strong-cyan);
-    width: 4.5em;
+    width: 3.5em;
 
 }
 
