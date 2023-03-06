@@ -277,3 +277,91 @@ strong{
     opacity: 1;
 }
 
+@media screen and (max-width: 768px ) {
+
+    body{
+        width: 80vw;
+        height: 100vh;
+    
+    }
+
+    .visor__box{
+        width: 91vw;
+        height: 88vh;
+        display: flex;
+        flex-direction: column;
+        margin: 1em auto 0 auto;
+    }
+
+    .main__title{
+        margin: 1em auto 0 auto;
+        width:8em;
+    }
+
+    .visor__title{
+        font-size: 14px;
+        margin-left: 1.4em;
+        position: relative;
+        top: 1.5em;
+    }
+
+    .input__number{
+        height: 2em;
+        width: 20em;
+        margin-bottom: 1em;
+    }
+    
+
+    .tecla__box{
+       margin: auto;
+    
+    }
+
+    .tecla__tecla, .tecla__number{
+        font-size: 16px;
+        width: 5.2em;
+        padding: 0.5em;
+        margin: 0.2em;
+    }
+    
+    .tecla__number{
+        width: 4em;
+    }
+
+    .number__zero{
+       text-align: center;
+       margin-bottom: 0.5em;
+    }
+
+    .people__number{
+        width: 20em;
+        padding: 0.5em;
+        
+    }
+    
+
+    .right__side{
+        margin:auto;
+        height: 90vh;
+        width: 90vw;
+    }
+
+    .amount{
+        position: relative;
+        top: 0.9em;
+    }
+
+    .total{
+        position: relative;
+        top: 0.2em;
+    
+    }
+
+    .reset{
+        width: 20em;
+        margin: 1em auto 0 auto;   
+        
+    }
+
+    
+}

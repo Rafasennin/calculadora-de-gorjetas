@@ -35,7 +35,7 @@ customInput.addEventListener("keyup", ()=>{
 
 
 
-    numberZero.innerHTML = " O número de pessoas não pode ser zero '0'";
+    numberZero.innerHTML = " Inclua um valor diferente de zero";
     totalPeople.innerHTML = "R$ 0.00";
 
 
