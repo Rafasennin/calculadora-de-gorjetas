@@ -277,3 +277,41 @@ strong{
     opacity: 1;
 }
 
+@media screen and (max-width: 768px ) {
+
+    body{
+        width: 350px;
+        height: 600px;
+    
+    }
+
+    .visor__box{
+        width: 93vw;
+        height: 85vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main__title{
+        margin: 1em auto 1em auto;
+        width:5em;
+    }
+
+    .right__side{
+        margin:1em auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr ;
+        height: 250px;
+        width: 90vw;
+    }
+
+    .reset{
+        grid-column: span 2;
+        grid-row: 2 span 2;
+        width: 20em;
+        margin: 1em auto 0 auto;   
+    }
+
+    
+}
