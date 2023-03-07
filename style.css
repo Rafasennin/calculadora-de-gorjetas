@@ -280,14 +280,14 @@ strong{
 @media screen and (max-width: 768px ) {
 
     body{
-        width: 80vw;
-        height: 100vh;
+        width: 70vw;
+        height: 50vh;
     
     }
 
     .visor__box{
-        width: 91vw;
-        height: 88vh;
+        width: 83vw;
+        height: 85vh;
         display: flex;
         flex-direction: column;
         margin: 1em auto 0 auto;
@@ -296,6 +296,7 @@ strong{
     .main__title{
         margin: 1em auto 0 auto;
         width:8em;
+        display: none;
     }
 
     .visor__title{
@@ -307,7 +308,7 @@ strong{
 
     .input__number{
         height: 2em;
-        width: 20em;
+        width: 18em;
         margin-bottom: 1em;
     }
     
@@ -319,13 +320,13 @@ strong{
 
     .tecla__tecla, .tecla__number{
         font-size: 16px;
-        width: 5.2em;
+        width: 4.2em;
         padding: 0.5em;
-        margin: 0.2em;
+        margin: 0.3em
     }
     
     .tecla__number{
-        width: 4em;
+        width: 3em;
     }
 
     .number__zero{
@@ -334,7 +335,7 @@ strong{
     }
 
     .people__number{
-        width: 20em;
+        width: 18em;
         padding: 0.5em;
         
     }
@@ -342,24 +343,58 @@ strong{
 
     .right__side{
         margin:auto;
-        height: 90vh;
-        width: 90vw;
+        width: 70vw;
+        height: 200px;
+    }
+
+    .amount__title, .total__title{
+        position: relative;
+        bottom: 1.7em;
+        right: 0.5em;
+    }
+
+    .total__title{
+        position: relative;
+        bottom: 1.7em;
+        right: 1.5em;
+    }
+
     }
 
     .amount{
         position: relative;
-        top: 0.9em;
+        bottom: 0.1em;
+        right: 1.8em;
+        font-size: 28px;
     }
 
     .total{
         position: relative;
-        top: 0.2em;
+        bottom: 0.3em;
+        right: 1.8em;
+        font-size: 28px;
     
     }
 
+    strong{
+        position: relative;
+        margin-left: 0.5em;
+        bottom: 2em;
+        
+    }
+    
+    .strong__2{
+        position: relative;
+        right: 3.1em;
+        bottom: 2em;   
+    }
+
     .reset{
-        width: 20em;
+        width: 15em;
         margin: 1em auto 0 auto;   
+        position: relative;
+        right: 2.5em;
+        bottom: 1em;
         
     }
 
