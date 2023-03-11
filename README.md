@@ -1,7 +1,7 @@
 # calculadora-de-gorjetas
-##Uma maneira fácil de calcular a divisão da gorjeta por pessoa.
+## Uma maneira fácil de calcular a divisão da gorjeta por pessoa.
 
-###Neste projeto como meu primeiro desafio dentro da mentoria, utilzei as técnologias: Html 5, Css3 e javascript.
+### Neste projeto como meu primeiro desafio dentro da mentoria, utilzei as técnologias: Html 5, Css3 e javascript.
 
 ### Houveram algumas dificuldades para aplicar a lógica n valor final referente a porcentagem  da gorjeta dividido pelo número de pessoas. 
 
